@@ -11,7 +11,7 @@ on:
 
 jobs:
   get-publish-version:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     outputs:
       publish-version: ${{ steps.get-publish-version.outputs.publish-version }}
     steps:
